@@ -1,0 +1,26 @@
+.container {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .6);
+  color: white;
+  font-weight: bold;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 20px;
+}
+#cumulatedClicks {
+  width: 25%;
+  height: inherit;
+  border: solid;
+  border-radius: 10px;
+  background-color: rgba(255, 75, 0, .7);
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
